@@ -11,4 +11,5 @@
     <exec_depend>xacro</exec_depend>
     <exec_depend>gazebo_ros</exec_depend>
     <exec_depend>gunrobo_description</exec_depend>
+    <exec_depend>sim_worlds</exec_depend>
 </package>

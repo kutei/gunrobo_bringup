@@ -2,3 +2,7 @@
     local-name: gunrobo_description
     uri: https://github.com/kutei/gunrobo_description.git
     version: master
+- git:
+    local-name: sim_worlds
+    uri: https://github.com/kutei/sim_worlds.git
+    version: master
