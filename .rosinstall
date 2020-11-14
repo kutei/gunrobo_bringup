@@ -1,0 +1,8 @@
+- git:
+    local-name: gunrobo_bringup
+    uri: https://github.com/kutei/gunrobo_bringup.git
+    version: master
+- git:
+    local-name: gunrobo_description
+    uri: https://github.com/kutei/gunrobo_description.git
+    version: master
