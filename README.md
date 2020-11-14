@@ -9,10 +9,10 @@ echo "source /usr/share/vcstool-completion/vcs.bash" >> ~/.bashrc
 
 ## how to setup
 ```
-mkdir -p ~/gunrobo_ws
-cd ~/gunrobo_ws
-curl -O https://raw.githubusercontent.com/kutei/gunrobo_bringup/master/.rosinstall
-vcstool import < .rosinstall
+mkdir -p ~/gunrobo_ws/src
+cd ~/gunrobo_ws/src
+git clone https://github.com/kutei/gunrobo_bringup.git
+vcs import < gunrobo_bringup/.rosinstall
 ```
 
 ## how to build
